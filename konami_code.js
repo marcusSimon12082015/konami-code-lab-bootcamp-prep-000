@@ -12,14 +12,16 @@ function init() {
 
   function onKeyDownHandler(e){
    console.log('Sem v onKeyDownHandlerju');
-   const key = parseInt(e.detail || e.which);
-   alert(key);
+   if (e.shiftKey) {
+     const key = parseInt(e.detail || e.which);
+     alert(key);
+   }
    if (key === code[index]) {
      index++;
-     if (index === code.length) {
-       alert("Hurray!");
-       index = 0;
-     }
+   if (index === code.length) {
+     alert("Hurray!");
+     index = 0;
+    }
    }
   }
 }
