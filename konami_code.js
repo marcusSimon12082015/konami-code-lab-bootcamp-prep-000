@@ -13,8 +13,8 @@ function init() {
   function onKeyDownHandler(e){
    console.log('Sem v onKeyDownHandlerju');
    const key = parseInt(e.detail || e.which);
-   alert("Shift key is pressed");
-   
+   alert(key);
+
   //  if (key === code[index]) {
   //    index++;
   //  if (index === code.length) {
