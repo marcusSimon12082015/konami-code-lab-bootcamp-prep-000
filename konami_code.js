@@ -4,7 +4,11 @@ function init() {
   // Write your JavaScript code inside the init() function
   var rightKey = 0;
   document.body.addEventListener('keydown', onKeyDownHandler);
-
+  var naslov = document.getElementsById("naslov");
+  naslov.addEventListener('click', clickHandler());
+  function clickHandler(e){
+    alert('I was clicked!');
+  }
   function onKeyDownHandler(e){
    console.log('Sem v onKeyDownHandlerju');
   //  const key = parseInt(e.detail || e.which);
