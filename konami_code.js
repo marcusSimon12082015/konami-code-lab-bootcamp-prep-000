@@ -12,12 +12,9 @@ function init() {
 
   function onKeyDownHandler(e){
    console.log('Sem v onKeyDownHandlerju');
-   if (e.shiftKey) {
-     const key = parseInt(e.detail || e.which);
-     alert("Shift key is pressed");
-   }else{
-     //alert(e.charCode);
-   }
+   const key = parseInt(e.detail || e.which);
+   alert("Shift key is pressed");
+   
   //  if (key === code[index]) {
   //    index++;
   //  if (index === code.length) {
