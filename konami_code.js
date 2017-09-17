@@ -8,16 +8,11 @@ function init() {
   // Write your JavaScript code inside the init() function
   var index = 0;
   document.body.addEventListener('keydown', onKeyDownHandler);
-  var naslov = document.getElementById("naslov");
-  naslov.addEventListener('click', clickHandler);
-  function clickHandler(e){
-    alert('Pritisk!');
-  }
 
   function onKeyDownHandler(e){
    console.log('Sem v onKeyDownHandlerju');
    const key = parseInt(e.detail || e.which);
-   alert(key);
+
 
   //  if (key === code[index]) {
   //    index++;
@@ -26,5 +21,13 @@ function init() {
   //    index = 0;
   //   }
   //  }
+  }
+  function convert(key){
+    for (var k in pretvornaTabela) {
+      if (key === k) {
+        key = pretvornaTabela[k];
+      }
+    }
+    return key;
   }
 }
