@@ -14,13 +14,15 @@ function init() {
    const key = parseInt(e.detail || e.which);
    keyCode = convert(key);
    alert(key+" --> "+keyCode);
-  //  if (key === code[index]) {
-  //    index++;
-  //  if (index === code.length) {
-  //    alert("Hurray!");
-  //    index = 0;
-  //   }
-  //  }
+   if (keyCode === code[index]) {
+     index++;
+     if (index === code.length) {
+        alert("Hurray!");
+        index = 0;
+       }
+    }else{
+      index = 0;
+    }
   }
   function convert(key){
     for (var k in pretvornaTabela) {
