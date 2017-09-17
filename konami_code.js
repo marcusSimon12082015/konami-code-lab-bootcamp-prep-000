@@ -12,8 +12,8 @@ function init() {
   function onKeyDownHandler(e){
    console.log('Sem v onKeyDownHandlerju');
    const key = parseInt(e.detail || e.which);
-   key = convert(key);
-   alert(key);
+   keyCode = convert(key);
+   alert(keyCode);
   //  if (key === code[index]) {
   //    index++;
   //  if (index === code.length) {
