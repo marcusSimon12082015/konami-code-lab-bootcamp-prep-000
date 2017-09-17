@@ -5,7 +5,7 @@ function init() {
   var index = 0;
   document.body.addEventListener('keydown', onKeyDownHandler);
   var naslov = document.getElementById("naslov");
-  naslov.addEventListener('click', clickHandler());
+  naslov.addEventListener('click', clickHandler);
   function clickHandler(e){
     alert('Pritisk!');
   }
