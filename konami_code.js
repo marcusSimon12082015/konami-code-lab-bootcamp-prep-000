@@ -7,7 +7,7 @@ function init() {
   var naslov = document.getElementById("naslov");
   naslov.addEventListener('click', clickHandler());
   function clickHandler(e){
-    alert('I was clicked!');
+    alert('Pritisk!');
   }
 
   function onKeyDownHandler(e){
