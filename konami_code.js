@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   var rightKey = 0;
   //document.body.addEventListener('keydown', onKeyDownHandler);
-  var naslov = document.getElementsById("naslov");
+  var naslov = document.getElementById("naslov");
   naslov.addEventListener('click', clickHandler());
   function clickHandler(e){
     alert('I was clicked!');
