@@ -15,6 +15,7 @@ function init() {
    keyCode = convert(key);
    //alert(key+" --> "+keyCode);
    if (keyCode === code[index]) {
+     alert(keyCode);
      index++;
      if (index === code.length) {
         alert("Hurray!");
