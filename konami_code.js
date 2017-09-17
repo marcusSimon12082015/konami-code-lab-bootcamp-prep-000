@@ -24,7 +24,7 @@ function init() {
   }
   function convert(key){
     for (var k in pretvornaTabela) {
-      if (key === k) {
+      if (key === parseInt(k)) {
         key = pretvornaTabela[k];
       }
     }
