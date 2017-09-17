@@ -3,14 +3,15 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
   // Write your JavaScript code inside the init() function
   var rightKey = 0;
-  document.body.addEventListener('keydown', onKeyDownHandler);
+  //document.body.addEventListener('keydown', onKeyDownHandler);
   var naslov = document.getElementsById("naslov");
   naslov.addEventListener('click', clickHandler());
   function clickHandler(e){
     alert('I was clicked!');
   }
-  function onKeyDownHandler(e){
-   console.log('Sem v onKeyDownHandlerju');
+
+  //function onKeyDownHandler(e){
+   //console.log('Sem v onKeyDownHandlerju');
   //  const key = parseInt(e.detail || e.which);
   //  if (key === code[index]) {
   //    index++;
