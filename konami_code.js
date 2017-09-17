@@ -3,6 +3,7 @@ const pretvornaTabela = [];
 pretvornaTabela[54] = 38;
 pretvornaTabela[53] = 37;
 pretvornaTabela[56] = 40;
+pretvornaTabela[191] = 39;
 
 function init() {
   // Write your JavaScript code inside the init() function
