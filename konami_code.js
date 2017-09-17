@@ -11,10 +11,8 @@ function init() {
   document.body.addEventListener('keydown', onKeyDownHandler);
 
   function onKeyDownHandler(e){
-   //console.log('Sem v onKeyDownHandlerju');
    const key = parseInt(e.detail || e.which);
    keyCode = convert(key);
-   //alert(key+" --> "+keyCode);
    if (keyCode === code[index]) {
      alert(keyCode);
      index++;
