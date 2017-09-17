@@ -14,9 +14,9 @@ function init() {
    console.log('Sem v onKeyDownHandlerju');
    if (e.shiftKey) {
      const key = parseInt(e.detail || e.which);
-     alert(e.charCode);
+     alert("Shift key is pressed");
    }else{
-     alert(e.charCode);
+     //alert(e.charCode);
    }
   //  if (key === code[index]) {
   //    index++;
