@@ -13,7 +13,7 @@ function init() {
    console.log('Sem v onKeyDownHandlerju');
    const key = parseInt(e.detail || e.which);
    keyCode = convert(key);
-   alert(keyCode);
+   alert(key+" --> "+keyCode);
   //  if (key === code[index]) {
   //    index++;
   //  if (index === code.length) {
