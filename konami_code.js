@@ -15,6 +15,8 @@ function init() {
    if (e.shiftKey) {
      const key = parseInt(e.detail || e.which);
      alert(e.charCode);
+   }else{
+     alert(e.charCode);
    }
   //  if (key === code[index]) {
   //    index++;
