@@ -16,12 +16,12 @@ function init() {
      const key = parseInt(e.detail || e.which);
      alert(e.charCode);
    }
-   if (key === code[index]) {
-     index++;
-   if (index === code.length) {
-     alert("Hurray!");
-     index = 0;
-    }
-   }
+  //  if (key === code[index]) {
+  //    index++;
+  //  if (index === code.length) {
+  //    alert("Hurray!");
+  //    index = 0;
+  //   }
+  //  }
   }
 }
