@@ -7,14 +7,14 @@ function init() {
   body.addEventListener('keydown', onKeyDownHandler);
 
   function onKeyDownHandler(e){
-    console.log('Sem v onKeyDownHandlerju');
-    const key = parseInt(e.detail || e.which);
-   if (key === code[index]) {
-     index++;
-     if (index === code.length) {
-       alert("Hurray!");
-       index = 0;
-     }
-   }
-  }
+   console.log('Sem v onKeyDownHandlerju');
+  //  const key = parseInt(e.detail || e.which);
+  //  if (key === code[index]) {
+  //    index++;
+  //    if (index === code.length) {
+  //      alert("Hurray!");
+  //      index = 0;
+  //    }
+  //  }
+  // }
 }
